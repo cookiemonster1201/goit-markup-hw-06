@@ -491,6 +491,12 @@ img {
 .footer > .container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
+}
+
+.footer-left-side {
+  display: flex;
+  align-items: baseline;
 }
 
 .address-box__info__physical-address {
@@ -548,12 +554,6 @@ img {
 .social__list-item__link.dark-theme:hover,
 .social__list-item__link.dark-theme:focus {
   background-color: var(--accent-color);
-}
-
-
-
-.subscription-box {
-  margin-left: 93px;
 }
 
 .subscription-form__appeal {

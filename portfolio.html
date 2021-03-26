@@ -256,78 +256,83 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="address-box">
-                <a 
-                    class="logo logo-dark-theme link"
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    lang="en"
-                    aria-label="Web Studio">
-                    <span class="logo-text">Web</span>Studio
-                </a>
+            <div class="footer-left-side">
+                <div class="address-box">
+                    <a 
+                        class="logo logo-dark-theme link"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        lang="en"
+                        aria-label="Web Studio">
+                        <span class="logo-text">Web</span>Studio
+                    </a>
 
-                <address class="address-box__info address">
-                    <p class="address-box__info__physical-address">г. Киев, пр-т Леси Украинки, 26</p>
-                    <ul class="address-box__info__contacts__list list">
-                        <li class="address-box__info__contacts__list-item mail">
-                            <a class="address-box__info__contacts__list-item__link link" href="mailto:info@example.com">info@example.com</a>
+                    <address class="address-box__info address">
+                        <p class="address-box__info__physical-address">г. Киев, пр-т Леси Украинки, 26</p>
+                        <ul class="address-box__info__contacts__list list">
+                            <li class="address-box__info__contacts__list-item mail">
+                                <a class="address-box__info__contacts__list-item__link link" href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li class="address-box__info__contacts__list-item">
+                                <a class="address-box__info__contacts__list-item__link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+
+                <div class="appeal-box">
+                    <p class="appeal-box__invitation">Присоединяйтесь</p>
+                    <ul class="social__list list">
+                        <li class="social__list-item">
+                            <a class="social__list-item__link dark-theme" href="#" target="_blank" aria-label="Instagram">
+                                <svg class="social__list-item__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="address-box__info__contacts__list-item">
-                            <a class="address-box__info__contacts__list-item__link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                        <li class="social__list-item">
+                            <a class="social__list-item__link dark-theme" href="#" target="_blank" aria-label="Twitter">
+                                <svg class="social__list-item__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__list-item">
+                            <a class="social__list-item__link dark-theme" href="#" target="_blank" aria-label="Facebook">
+                                <svg class="social__list-item__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__list-item">
+                            <a class="social__list-item__link dark-theme" href="#" target="_blank" aria-label="Linkedin">
+                                <svg class="social__list-item__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
-                </address>
+                </div>
             </div>
-
-            <div class="appeal-box">
-                <p class="appeal-box__invitation">Присоединяйтесь</p>
-                <ul class="social__list list">
-                    <li class="social__list-item">
-                        <a class="social__list-item__link dark-theme" href="#" target="_blank" aria-label="Instagram">
-                            <svg class="social__list-item__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-instagram"></use>
+            
+            <div class="footer-right-side">
+                <div class="subscription-box">
+                    <p class="subscription-form__appeal">Подпишитесь на рассылку</p>
+                    <form class="subscription-form" name="subscription-form">
+                        <label>
+                            <input class="subscription-form__input" type="email" name="email" placeholder="E-mail">
+                        </label>
+                        <button class="button btn" type="submit">
+                            <span>Подписаться</span>
+                            <svg class="subscription-form__button__icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
                             </svg>
-                        </a>
-                    </li>
-                    <li class="social__list-item">
-                        <a class="social__list-item__link dark-theme" href="#" target="_blank" aria-label="Twitter">
-                            <svg class="social__list-item__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social__list-item">
-                        <a class="social__list-item__link dark-theme" href="#" target="_blank" aria-label="Facebook">
-                            <svg class="social__list-item__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social__list-item">
-                        <a class="social__list-item__link dark-theme" href="#" target="_blank" aria-label="Linkedin">
-                            <svg class="social__list-item__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="subscription-box">
-                <p class="subscription-form__appeal">Подпишитесь на рассылку</p>
-                <form class="subscription-form" name="subscription-form">
-                    <label>
-                        <input class="subscription-form__input" type="email" name="email" placeholder="E-mail">
-                    </label>
-                    <button class="button btn" type="submit">
-                        <span>Подписаться</span>
-                        <svg class="subscription-form__button__icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-send"></use>
-                        </svg>
-                    </button>
-                </form>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
-    </footer>   
+    </footer>
 </body>
 </html>
